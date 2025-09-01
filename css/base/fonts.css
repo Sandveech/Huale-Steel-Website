@@ -1,0 +1,95 @@
+/* Regular */
+@font-face {
+    font-family: 'Aptos';
+    src: url(/assets/fonts/Aptos/Aptos.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Serif */
+@font-face {
+    font-family: 'Aptos-Serif';
+    src: url(/assets/fonts/Aptos/Aptos-Serif.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Light */
+@font-face {
+    font-family: 'Aptos-Light';
+    src: url(/assets/fonts/Aptos/Aptos-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Aptos-Semibold';
+    src: url(/assets/fonts/Aptos/Aptos-SemiBold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Display */
+@font-face {
+    font-family: 'Aptos-Display';
+    src: url(/assets/fonts/Aptos/Aptos-Display.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mono */
+@font-face {
+    font-family: 'Aptos-Mono';
+    src: url(/assets/fonts/Aptos/Aptos-Mono.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Aptos-Bold';
+    src: url(/assets/fonts/Aptos/Aptos-Bold.ttf) format('truetype');
+    font-weight : bold;
+    font-style: normal; 
+    font-display: swap;
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Suwannaphum-Regular';
+    src: url(/assets/fonts/Suwannaphum/Suwannaphum-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suwannaphum-Light';
+    src: url(/assets/fonts/Suwannaphum/Suwannaphum-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suwannaphum-Thin';
+    src: url(/assets/fonts/Suwannaphum/Suwannaphum-Thin.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;   
+}
+
+@font-face {
+    font-family: 'Suwannaphum-Bold';
+    src: url(/assets/fonts/Suwannaphum/Suwannaphum-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,132 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hero-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background : rgba(2, 30, 135, 0.4);
+}
+
+#explore-our-products-btn {
+    position: absolute;
+    top: 30em;
+    left: 4em;
+}
+
+.tagline {
+    top: 5.5em;
+    left: 1em;
+    line-height: 1.1em;
+    font-size: 3.5rem;
+    position: absolute;
+    color: white;
+    font-family: 'Suwannaphum-Light', sans-serif;
+}
+
+.marginalized-content {
+    padding: 4em 4em;
+    width: 28em;
+}
+.content-header {
+    padding-bottom: 2em;
+    font-family: 'Suwannaphum', sans-serif;
+}
+
+#short-summary {
+    padding-bottom: 2em;
+}
+
+#quick-stats-separator {
+    height: 4px;
+    width: 25%;
+    margin: auto;
+    background-color: #c0484a;
+}
+
+.quick-stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1em;
+    justify-content: space-between;
+    gap: 3em;
+    color: #c0484a;
+    font-size: 3rem;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.quick-stat {
+    text-align: center;
+}
+
+.quick-stat h2 {
+    font-family: 'Suwannaphum-Bold', sans-serif;
+}
+
+#industries-served-header {
+    margin-bottom: 2em;
+    margin-left: 4em;
+}
+
+.industries-items-container {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.industries-items {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.industries-items p {
+    margin-top: 1rem;
+    width: 200px;
+    line-height: 1.2rem;
+}
+
+.industry-icon-container {
+    display: flex;
+    font-size: 3rem;
+    height: 3rem;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+    background-color: #c0484a;
+    color: white;
+    margin-left: 1.2em;
+}
+
+.industry-icon-header {
+    margin-top: 2rem;
+    font-family: 'Suwannaphum', sans-serif;
+}
+
+.new-image-container img {
+    width: 80%;
+    height: auto;
+}
+
+.news {
+    width : 300px;
+}
