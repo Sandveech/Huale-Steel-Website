@@ -118,15 +118,19 @@
     margin-bottom: 1rem;
 }
 
-.production {
+.production-container {
     display: flex;
-    justify-content: space-between;
-    gap: 16rem;
+    justify-content: center;
+    gap: 2em;
     margin-bottom: 3rem;
 }
 
 .production-image {
-    width: 100%;
+    width: 23%;
+}
+
+.production-text {
+    width: 64rem;
 }
 
 .news-container {
@@ -175,12 +179,15 @@
     .product-image {
         width: 100%;
     }
-
-    .production {
-        flex-direction: column;
-        gap: 1rem;
-    }
     
+    .production-container  {
+        flex-direction: column;
+    }
+
+    .production-image {
+        width: 100%;
+    }
+
     .industries-container {
         flex-direction: column;
         align-items: center;
