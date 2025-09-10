@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}

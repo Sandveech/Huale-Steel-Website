@@ -1,0 +1,58 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+button, input, select, textarea {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Aptos-Bold';
+    background: var(--color-primary);
+    color: #fff;
+    border: 2px solid var(--color-primary);;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+/* Mobile Styles */
+@media (max-width: 800px) {
+    .container {
+        padding: 1rem;
+    }
+}
