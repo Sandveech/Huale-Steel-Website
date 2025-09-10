@@ -52,6 +52,16 @@
     align-items: flex-start;
 }
 
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-image {
+    width: 50%;
+    margin-top: 6rem;
+}
+
 .about-us-subtitle {
     margin-bottom: 4rem;
     max-width: 32rem;
@@ -165,6 +175,14 @@
     }
     .hero-subtitle {
         font-size:  1rem;
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us-image {
+        width: 100%;
     }
 
     .quick-stats {
