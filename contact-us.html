@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huale Steel | About Us</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/base/fonts.css">
+    <link rel="stylesheet" href="css/base/typography.css">
+    <link rel="stylesheet" href="css/base/global.css">
+    <link rel="stylesheet" href="css/base/utilities.css">
+    <link rel="stylesheet" href="css/base/reset.css">
+    <link rel="stylesheet" href="css/base/responsiveness.css">
+    <link rel="stylesheet" href="css/base/variables.css">
+    <link rel="stylesheet" href="css/layouts/header.css">
+    <link rel="stylesheet" href="css/layouts/footer.css">
+    <link rel="stylesheet" href="css/layouts/grid.css">
+    <link rel="stylesheet" href="css/pages/contact-us.css">
+    <!--Images & Icons-->
+    <link rel="icon" href="assets/images/logos/huale-steel-logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<header>
+    <div class="container">
+        <!--Logo-->
+        <a href="index.html" class="logo"><img src="assets/images/logos/huale-steel-small-logo.webp" alt="huale-steel-small-logo"></a>
+
+        <!--Navigation-->
+        <nav class="nav">
+            <ul class="nav-list flex-evenly">
+                <li><a class="nav-link" href="index.html">HOME</a></li>
+                <li><a class="nav-link" href="about-us.html">ABOUT US</a></li>
+                <li><a class="nav-link active" href="contact-us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <!--Hamburger-->
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+        </button>
+    </div>
+</header>
+<body>
+    <div class="container contact-us-body">
+        <h3 class="contact-us-title content-title">CONTACT US</h3>
+        <div class="contact-container">
+            <div class="email-container">
+                <h4>EMAIL</h4>
+                <p>For inquiries and comments, please contact us below:</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="22ac9f0e-6e5f-4d31-bf59-244b7c33f0f8">
+
+                    <div class="full-name-input">
+                        <input class="text-input" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    
+                    <div class="email-input">
+                        <input class="text-input" type="email" name="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="subject-input">
+                        <input class="text-input" type="text" name="subject" placeholder="Subject">
+                    </div>
+                    
+                    <div class="message-input">
+                        <textarea class="message text-input" name="message" placeholder="Message" required></textarea>
+                    </div>
+
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <button id="submit-button" type="submit" class="btn submit-button" data-i18n="submit">SUBMIT</button>
+
+                </form>
+            </div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.0653126489806!2d103.51963401148421!3d10.652034189445443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e17f0a3ab3cd%3A0xbd603a30678947bd!2sHUALE%20STEEL%20(CAMBODIA)%20CO.%2CLTD!5e0!3m2!1sen!2skh!4v1757684930691!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+<footer>
+    <section class="footer-top">
+        <h3 class="footer-title">QUICK LINKS</h3>
+        <div class="quick-links-container">
+            <div class="nav-footer">
+                <h4 class="quick-link-title">INFORMATION</h4>
+                <ul class="nav-list-footer">
+                    <li><a class="nav-link" href="index.html">HOME</a></li>
+                    <li><a class="nav-link" href="about-us.html">ABOUT US</a></li>
+                    <li><a class="nav-link active" href="contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="contact-infromation-footer">
+                <h4 class="quick-link-title">CONTACTS</h4>
+                <ul class="contacts-title">
+                    <ul class="nav-list-footer">
+                        <li><a href="tel:+85560801999"><i class="fa-solid fa-phone"></i>&nbsp; (+855) 60 801 999 (CAMBODIA)</a></li>
+                        <li><a href="tel:+61432168168"><i class="fa-solid fa-phone"></i>&nbsp; (+61) 432 168 168 (AUSTRALIA)</a></li>
+                        <li><a href="https://t.me/hualesteel"><i class="fa-brands fa-telegram"></i>&nbsp; Telegram</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h4 class="quick-link-title">SOCIAL MEDIA</h4>
+                <ul class="nav-list-footer">
+                    <li><a class="nav-link" href="https://web.facebook.com/profile.php?id=61568759048866"><i class="fa-brands fa-facebook"></i>&nbsp; Facebook</a></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="footer-bottom">
+        <p class="copyright">&copy; 2025 Huale Steel. All Rights Reserved.</p>
+    </section>
+</footer>
+
+<!--Script-->
+<script src="js/components/nav-menu.js"></script>
+</html>

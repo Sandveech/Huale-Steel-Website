@@ -29,6 +29,10 @@ header {
     z-index: 1000;
 }
 
+textarea {
+    resize: none;
+}
+
 .container {
     margin: 0 auto;
     padding: 1rem 12rem;
@@ -41,6 +45,7 @@ header {
     font-family: 'Aptos-Bold';
     background: var(--color-primary);
     color: #fff;
+    min-width: 10rem;
     border: 2px solid var(--color-primary);;
     padding: 1rem 1rem;
     text-decoration: none;
@@ -48,6 +53,12 @@ header {
 
 .btn:hover {
     background: #fff;
+    color: var(--color-primary);
+}
+
+.content-title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 /* Mobile Styles */
